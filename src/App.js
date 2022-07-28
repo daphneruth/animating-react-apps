@@ -1,5 +1,3 @@
-
-
 import React, { Component } from "react";
 import Transition from "react-transition-group/Transition";
 
@@ -72,3 +70,4 @@ class App extends Component {
 }
 
 export default App;
+
