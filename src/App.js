@@ -50,7 +50,7 @@ class App extends Component {
             />
           )}
         </Transition>
-        <Transition in ={this.state.modalIsOpen}>
+        <Transition in ={this.state.modalIsOpen}  timeout={400}>
        
           {state => (
                     <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
