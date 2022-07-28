@@ -6,6 +6,10 @@ import Backdrop from "./components/Backdrop/Backdrop";
 import List from "./components/List/List";
 
 class App extends Component {
+  state = {
+    modalIsOpen: false
+  }
+  
   render() {
     return (
       <div className="App">
