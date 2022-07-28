@@ -11,3 +11,10 @@
     left: 25%;
     width: 50%;
 }
+.ModalOpen {
+    animation: openModal 0.4s ease-out forwards;
+}
+
+.ModalClosed {
+    animation: closeModal 0.4s ease-out forwards;
+}
